@@ -1185,3 +1185,10 @@ body::before {
 .form-button:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); }
 .form-required-note { text-align: center; font-size: 0.85rem; color: #888; margin: 0; text-transform: none; }
 @media (max-width: 768px) { .form-container { padding: 28px 20px; border-radius: 16px; } .form-title { font-size: 1.6rem; } }
+/* ===== LOGO ===== */
+.site-logo { height: 52px; width: auto; display: block; }
+.footer-logo { height: 56px; width: auto; display: block; }
+@media (max-width: 768px) {
+    .site-logo { height: 44px; margin: 0 auto; }
+    .footer-logo { height: 48px; margin: 0 auto; }
+}
